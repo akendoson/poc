@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .bio {
+            padding: 20px;
+            background: #e2e2e2;
+        }
+        .projects, .hobbies, .contact {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>歡迎來到我的個人網頁</h1>
+            <ul>
+                <li><a href="#bio">關於我</a></li>
+                <li><a href="#projects">個人項目</a></li>
+                <li><a href="#hobbies">興趣愛好</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section id="bio" class="bio">
+            <h2>關於我</h2>
+            <p>你好，我叫張三。我是一名軟件工程師，對技術和創新充滿熱情。</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>個人項目</h2>
+            <ul>
+                <li>項目一：一個用於管理任務的應用程序。</li>
+                <li>項目二：一個個人博客平台。</li>
+                <li>項目三：一個用於分析數據的工具。</li>
+            </ul>
+        </section>
+        <section id="hobbies" class="hobbies">
+            <h2>興趣愛好</h2>
+            <p>我喜歡閱讀、旅行和編程。空閒時，我經常參加黑客馬拉松和技術研討會。</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>聯絡我</h2>
+            <p>你可以通過以下方式聯絡我：</p>
+            <ul>
+                <li>Email: example@example.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">yourprofile</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>版權所有 &copy; 2024 張三</p>
+    </footer>
+</body>
+</html>
